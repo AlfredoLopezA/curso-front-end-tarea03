@@ -1,0 +1,122 @@
+/* 
+---------------------------------------------
+Header
+--------------------------------------------- 
+*/
+.header-area {
+    background-color: $color_header-area;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    z-index: 100;
+    height: 100px;
+}
+
+.header-area .nav-principal .logo h4 {
+    font-size: 20px;
+    font-weight: 500;
+    color: $color_blanco;
+    line-height: 100px;
+    float: left;
+}
+
+.header-area .nav-principal .logo h4 img {
+    max-width: 30px;
+    margin-top: -20px;
+    margin-left: 5px;
+}
+
+.header-area .nav-principal .nav {
+    float: right;
+    margin-top: 30px;
+    margin-right: 0px;
+    background-color: transparent;
+    position: relative;
+}
+
+.header-area .nav-principal .nav li {
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.header-area .nav-principal .nav li a {
+    display: block;
+    font-weight: 500;
+    font-size: 15px;
+    color: $color_blanco;
+    height: 40px;
+    line-height: 40px;
+    border: transparent;
+    letter-spacing: 1px;
+}
+/* 
+---------------------------------------------
+Slide inicio
+--------------------------------------------- 
+*/
+.home-inicio {
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    padding: 200px 0px 120px 0px;
+    position: relative;
+    overflow: hidden;
+}
+
+.home-inicio .contenido-izquierdo h2 {
+    border-top: 1px solid $color_border;
+    margin-top: 30px;
+    padding-top: 20px;
+    margin-bottom: 45px;
+    font-size: 60px;
+    font-weight: 800;
+    color: #003399;
+    line-height: 72px;
+}
+/* 
+---------------------------------------------
+Pie de página
+--------------------------------------------- 
+*/
+.pie-pagina {
+    background-repeat: no-repeat;
+    border: 1px solid $color_pie-pagina;
+    margin: 10px 1px 1px 2px;
+    padding: 5px 0px 0px 0px;
+    position: relative;
+}
+/* 
+---------------------------------------------
+Acerca de
+--------------------------------------------- 
+*/
+#acerca-de {
+    padding-top: 130px;
+}
+
+.acerca-de .acerca-de-item h4 {
+    font-size:38px;
+    font-weight: 800;
+    color:$color_acerca-de-item-h4;
+}
+
+.acerca-de .acerca-de-item h6 {
+    font-size: 16px;
+    margin-top: 5px;
+    font-weight: 400;
+    color: $color_acerca-de-item-h6;
+    text-transform: capitalize;
+}
+.acerca-de p {
+    margin: 40px 0px;
+}
+/* 
+---------------------------------------------
+Footer
+--------------------------------------------- 
+*/
+footer p {
+    text-align: center;
+    margin: 30px 0px;
+}
