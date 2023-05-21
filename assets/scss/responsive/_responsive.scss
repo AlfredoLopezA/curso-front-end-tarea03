@@ -1,0 +1,52 @@
+/* 
+---------------------------------------------
+Responsive
+--------------------------------------------- 
+*/
+@media (min-width: 1366px) {
+    h2 {
+        font-size: 72px !important;
+    }
+    .header-area .nav-principal .logo h4 {
+        font-size: 24px;
+    }
+    .header-area .nav-principal .logo h4 img {
+        max-width: 25px;
+        margin-left: 0px;
+    }
+    .header-area .nav-principal .nav li:last-child {
+        padding-left: 20px;
+    }
+}
+
+@media (max-width: 1200px) {
+    h2 {
+        font-size: 60px !important;
+    }
+    .header-area .nav-principal .logo h6 {
+        font-size: 24px;
+    }
+    .header-area .nav-principal .logo h6 img {
+        max-width: 25px;
+        margin-left: 0px;
+    }
+    .header-area .nav-principal .nav li:last-child {
+        padding-left: 20px;
+    }
+}
+
+@media (max-width: 768px) {
+    h2 {
+        font-size: 30px !important;
+    }
+    .header-area .nav-principal .logo h6 {
+        font-size: 30px;
+    }
+    .header-area .nav-principal .logo h6 img {
+        max-width: 30px;
+        margin-left: 5px;
+    }
+    .home-inicio .info-temas {
+        margin-bottom: 15px;
+    }
+}
